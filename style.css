@@ -9,7 +9,10 @@ body{
     transition: Background-color 0.7s ease-out;
     background-color: hsl(0, 0%, 100%);
 }
-#head-background{
+.body-after{
+    background-color: hsl(230, 17%, 14%);
+}
+.head-background{
     position: absolute;
     top: 0;
     left: 0;
@@ -20,13 +23,22 @@ body{
     border-bottom-left-radius: 20px;
     transition: Background-color 0.65s ease-out;
 }
+.head-BG-after{
+    background-color: hsl(232, 19%, 15%);
+}
 .color-blue{
     color: hsl(230, 17%, 14%);
     transition: color 0.7s ease-out;
 }
-.color-ash-blue{
+.color-new-blue{
+    color: hsl(0, 0%, 100%);
+}
+.color-ash-blue,.color-ash-blueh3{
     color:hsl(228, 12%, 44%);
     transition: color 0.7s ease-out;
+}
+.color-new-Ash-blue{
+    color: hsl(228, 34%, 66%);
 }
 label{
     display: inline-block;
@@ -84,6 +96,9 @@ input:checked + label{
 }
 .followers-1:hover::before,.followers-2:hover::before,.followers-3:hover::before,.followers-4:hover::before, .overflow-1:hover::before{
     display: block;
+}
+.before{
+    background-color: hsl(228, 28%, 20%);
 }
 .before::before{
     background-color: rgba(255,255,255, 0.05);
@@ -163,7 +178,7 @@ input:checked + label{
     }
 }
 @media (min-width:768px){
-    #head-background{
+    .head-background{
         height: 35.5vh;
     }
 }
