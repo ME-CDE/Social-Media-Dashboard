@@ -20,11 +20,11 @@ body{
     border-bottom-left-radius: 20px;
     transition: Background-color 0.65s ease-out;
 }
-h1, h2,.overflow-1 h2{
+.color-blue{
     color: hsl(230, 17%, 14%);
     transition: color 0.7s ease-out;
 }
-h4,h6,p,#overflow h3, #darkmode h6{
+.color-ash-blue{
     color:hsl(228, 12%, 44%);
     transition: color 0.7s ease-out;
 }
